@@ -161,6 +161,10 @@ nav .container {
     color: #000000;
 }
 
+.bola-yosh {
+    margin-left: 250px;
+}
+
 .yoshbola-img {
     background-image: url(/img/Vector\ \(24\).png);
     width: 100%;
