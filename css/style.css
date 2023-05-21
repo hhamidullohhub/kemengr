@@ -126,8 +126,7 @@ header {
 nav .container {
     display: flex;
     align-items: center;
-    justify-content: 
-    space-between;
+    justify-content: space-between;
 }
 
 .call-number {
@@ -146,6 +145,7 @@ nav .container {
 .sentr-all {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .KEMENGER {
@@ -158,4 +158,12 @@ nav .container {
 
 .proisxodit {
     width: 340px;
+    color: #000000;
+}
+
+.yoshbola-img {
+    background-image: url(/img/Vector\ \(24\).png);
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
 }
