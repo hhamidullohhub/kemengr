@@ -145,4 +145,5 @@ nav .container {
 
 .sentr-all {
     display: flex;
+    align-items: center;
 }
