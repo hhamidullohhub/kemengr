@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1160px) {
+    .container {
+        width: 1040px;
+        background-color: red;
+    }
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 940px;
+        background-color: green;
+    }
+}
+
+@media (max-width: 860px) {
+    .container {
+        width: 840px;
+        background-color: gold;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 740px;
+        background-color: pink;
+    }
+}
+
+@media (max-width: 660px) {
+    .container {
+        width: 640px;
+        background-color: aqua;
+    }
+
+    .call-number p {
+        font-size: 12px;
+    }
+
+    .nav-li a {
+        font-size: 12px;
+    } 
+
+    .img-nav {
+        width: 50px;
+    }
+}
+
+@media (max-width: 560px) {
+    .container {
+        width: 540px;
+        background-color: blue;
+    }
+
+    .nav-li a {
+        display: none;
+    }
+
+    .img-nav {
+        margin-left: 100px;
+    }
+
+    .call-number {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 460px) {
+    .container {
+        width: 440px;
+        background-color: rgb(230, 16, 123);
+    }
+
+    .call-number p {
+        font-size: 9px;
+    } 
+}
+
+@media (max-width: 360px) {
+    .container {
+        width: 340px;
+        background-color: rgb(134, 125, 125);
+    }
+
+    .img-nav {
+        margin-left: 120px;
+    }
+
+    nav .container {
+        flex-wrap: wrap;
+    }
+
+    .call-number{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: 
+    space-between;
+}
+
+.call-number {
+    display: flex;
+    align-items: center;
+}
+
+.call-number p {
+    margin-left: 10px;
+}
+
+.nav-li {
+    margin: 0 10px;
+}
