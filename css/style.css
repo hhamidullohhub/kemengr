@@ -142,3 +142,7 @@ nav .container {
 .nav-li {
     margin: 0 10px;
 }
+
+.sentr-all {
+    display: flex;
+}
